@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Righteous&family=Sarala:wght@700&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: black;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-titulo{
+    font-family: 'Source Code Pro', monospace;
+    color: red;
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-imagem{
+    height: 100px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4 solid white;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav{ 
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.nav-nome{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400px;
+    color: white;
+}
+.nav-imagem{
+    height: 100px;
+}
+
+.footer{
+    padding: 32px;
+    border-top: 0.4px solid red;
+}
+
+.footer-titulo{
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: red;
+}
